@@ -1,0 +1,235 @@
+* {
+	font-family: 'Arvo', courier, serif;
+}
+
+body {
+	background-color: #D3D3D3;
+}
+
+nav {
+	background-color: #050511;
+	box-shadow: 0px 0px 20px #050511;
+}
+
+.navbar-brand {
+	padding-left: 30px;
+}
+
+nav .nav-link {
+	margin: 0px 10px 0px 10px;
+	text-transform: uppercase;
+}
+
+.navbar-collapse {
+	padding-right: 30px;
+}
+
+.jumbotron {
+	background-image: url('../images/City1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 60px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.jumbotron p {
+	color:  white;
+	font-size: 20px;
+	margin: 50px 80px 0px 80px;
+	text-align: center;
+}
+
+.btn-lg {
+	background-color:  #050511;
+	box-shadow: 0px 0px 25px #050511;
+	color:  #d9534f;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.btn-lg:hover {
+	background-color: #d9534f;
+	color: #050511;
+}
+
+.code {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.code:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.753);
+}
+
+.homepage {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.homepage h2 {
+	font-weight: 600;
+	color:  #050511;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.homepage h3 {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#who {
+	background-color: white;
+	padding-top: 50px;
+}
+
+#who img {
+	padding-bottom: 20px;
+}
+
+#who p {
+text-align: center;
+}
+
+#get-involved {
+	padding-top: 50px;
+}
+
+#get-involved .homepage p {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.fa-circle {
+	color: #050511;
+	text-shadow: 0px 0px 15px #050511ab;
+}
+
+.homepage .students {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.homepage .educators {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.homepage .sponsors {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.homepage hr {
+	border-top: 5px solid #d9534f;
+	border-radius: 30%;
+	width: 20%;
+}
+
+.btn-light {
+	box-shadow: 0px 0px 15px #050511ab;
+}
+
+.btn-light:hover {
+	background-color: #050511;
+}
+
+footer {
+	background-image: url('../images/City2.jpg');
+	background-size: cover;
+	background-color:  #050511;
+	height: 280px;
+}
+
+footer img {
+	padding-top: 180px;
+}
+
+
+/*Responsive Styling*/
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+	.jumbotron p {
+		padding: 0px 10px;
+	}
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.btn-lg {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+	.jumbotron p {
+		font-size: 16px;
+	}
+	.btn-lg {
+		font-size: 30px;
+	}
+	footer {
+		height: 220px;
+	}
+	footer img {
+		padding-top: 120px;
+		width: 60%;
+	}
+	.homepage p {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 420px) {
+	.jumbotron h1 {
+		padding-top: 80px;
+		font-size: 20px;
+	}
+	.jumbotron p {
+		margin: 0px 20px 0px 20px;
+		padding-bottom: 30px;
+		font-size: 12px;
+	}
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.btn-lg {
+		font-size: 20px;
+	}
+	.code {
+		margin-top: 0px;
+	}
+}
